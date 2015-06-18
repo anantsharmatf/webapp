@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+
+#searchResultsContainerClose{
+	display:none;
+	position:relative;	
+}
+
+#angular{
+	display:block;
+	position:relative;	
+}
+
+#xmlClose{
+	display:none;
+	position:relative;	
+}
+
+#tripClose{
+	display:none;
+	position:relative;	
+}
+
+#searchResultsContainer{
+	overflow:auto;
+}
+
+.photo{
+	position:relative;
+	left:0px;
+}
+
+.results{
+	position:relative;
+	background-color:#096;
+	height:60px;
+	overflow:hidden;
+}
+
+#searchResultsContainer{
+	position:absolute;
+	opacity:0.8;
+	left:0px;
+	width:0px;
+	height:0px;
+	display:none;
+	background-color:#096;
+}
+
+.scrollText{
+	position:absolute;
+	overflow:auto;
+	height:auto;
+}
+
+.scrollText #name{
+	position:relative;
+	left:40px;
+	top:-0px;
+	width:60%;
+	height:auto;
+	font-family:"rosewood Std Regular";
+	font-size:48px;
+}
+
+.scrollText #img{
+	position:relative;
+	width:200px;
+	height:240px;
+	left:1040px;
+	top:-45px;
+	border:dashed;
+}
+
+.shortInfo{
+	position:relative;
+	height:auto;
+	width:65%;
+	top:-230px;
+	left:80px;
+}
+
+.shortInfo #fullName{
+	position:relative;
+}
+.shortInfo #fatherName{
+	position:relative;
+}
+.shortInfo #dynasty{
+	position:relative;
+}
+.shortInfo #born{
+	position:relative;
+}
+.shortInfo #died{
+	position:relative;
+}
+
+.scrollText #h1{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+	font-size:18px;
+}
+
+.scrollText #i1{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-200px;
+	height:auto;
+}
+
+.scrollText #h2{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+	font-size:18px;
+}
+
+.scrollText #i2{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-200px;
+	height:auto;
+}
+
+.scrollText #h3{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+	font-size:18px;
+}
+
+.scrollText #i3{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-200px;
+	height:auto;
+}
+
+.scrollText #h4{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+	font-size:18px;
+}
+
+.scrollText #i4{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-200px;
+	height:auto;
+}
+
+.scrollText #h5{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+	font-size:18px;
+}
+
+.scrollText #i5{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-200px;
+	height:auto;
+}
+
+.scrollText #h6{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+	font-size:18px;
+}
+
+.scrollText #i6{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-200px;
+	height:auto;
+}
+
+.scrollText #h7{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+	font-size:18px;
+}
+
+.scrollText #i7{
+	position:relative;
+	width:95%;
+	left:40px;
+	top:-210px;
+	height:auto;
+}
+
+
+#regForm{
+	position:absolute;
+	display:none;
+	overflow:hidden;
+}
+
+#xml{
+	position:absolute;
+	display:none;
+	background-color:#0FF;
+	overflow:auto;
+}
+
+#trip{
+	position:absolute;
+	display:none;
+	background-color:#0FF;
+	overflow:auto;
+}
+
+#content{
+	position:absolute;
+	width:0px;
+	height:0px;
+	left:0px;
+	display:none;
+}
+
+.circle{
+	position:fixed;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+}
+#circlee{
+	position:absolute;
+	height:0px;
+	width:0px;
+	position:absolute;
+	margin:auto;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	
+	-moz-box-shadow: inset 16px 0 40px 3px rgb(0, 0, 0),
+ 		inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+
+	-webkit-box-shadow: inset 16px 0 40px 3px rgb(0, 0, 0),
+ 		inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+
+	box-shadow: inset 16px 0 40px 3px rgb(0, 0, 0),
+ 		inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+}
+
+#circles{
+	position:absolute;
+	height:0px;
+	width:0px;
+	margin:auto;
+	overflow:hidden;
+	background-color:#000000;
+	-moz-box-shadow: 0 0 5px 5px # 000;
+	-webkit-box-shadow: 0 0 5px 5px #000;
+	box-shadow: 0 0 5px 5px #000;
+}
+
+#circlem{
+	position:absolute;
+	height:0px;
+	width:0px;
+	margin:auto;
+	overflow:hidden;
+	background-color:#000000;
+	-moz-box-shadow: 0 0 5px 5px # 000;
+	-webkit-box-shadow: 0 0 5px 5px #000;
+	box-shadow: 0 0 5px 5px #000;
+
+}
+
+#circlel{
+	position:absolute;
+	height:0px;
+	width:0px;
+	margin:auto;
+	overflow:hidden;
+	background-color:#000000;
+	-moz-box-shadow: 0 0 5px 5px # 000;
+	-webkit-box-shadow: 0 0 5px 5px #000;
+	box-shadow: 0 0 5px 5px #000;
+
+}
+
+#ring1 {
+	position:absolute;
+}
+#ring2 {
+	position: absolute;
+}
+

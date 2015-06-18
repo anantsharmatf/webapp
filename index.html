@@ -1,8 +1,26 @@
 <html>
 <head>
-<title>Test Page</title>
+<title>WebApp</title>
+<script src= "ang.js" type="text/javascript"></script>
+<script src="jquery-1.9.1.js" type="text/javascript"></script>
+<script src="raphael-min.js" type="text/javascript"></script>
+<script src="drawEarth.js" type="text/javascript"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="globe.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<h1>Hello World</h1>
+<div class="circle">
+<div id="circlee" class="globe"></div>
+</div>
+
+<center>
+<div id="angular" ng-app="">
+ 
+<p>Enter your name in the Input Box</p>
+<p><input type="text" ng-model="name" placeholder="Enter name here"></p>
+<h1>Hello {{name}}</h1>
+
+</div>
+</center>
 </body>
-</html>
